@@ -1,2 +1,2 @@
-Blaž Tajzel
+Blaz Tajzel
 23221109
