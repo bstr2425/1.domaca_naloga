@@ -34,7 +34,7 @@ for i = 1:n-1
     prva_zadnja = prva_zadnja + funkcija_moci(x);
 end
 
-     moj_integral = sprememba_x * prva_zadnja
+     integral_moj = sprememba_x * prva_zadnja
 
 end
 
@@ -42,12 +42,11 @@ end
 a = t(1);
 b = t(end);
 n=100;
-fprintf('Približen rezultat integrala z mojo definirano metodo je: %f\n')
-trapezna_metoda(funkcija_moci, a,b,n)
-fprintf('Vrednoat integrala z vgrajeno trapezno metodo pa je: %f\n')
-funkcija_trapz= trapz(t, P)
+
+moj_zapis=trapezna_metoda(funkcija_moci, a,b,n);
+
+funkcija_trapz= trapz(t, P);
 
 
-
-%fprintf('Približen rezultat integrala z mojo definirano metodo je: %f\n',moj)
+fprintf('Približen ')
 
